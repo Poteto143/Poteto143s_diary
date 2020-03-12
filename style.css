@@ -1,0 +1,86 @@
+html {
+    background-image: url("background.png");
+}
+
+body {
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+
+header {
+    width: 1400px;
+    display: inline-block;
+}
+
+.main {
+    width: 1400px;
+    display: inline-block;
+}
+
+article {
+    width: 79.8%;
+    float: left;
+    display: block;
+}
+
+article h1 {
+    width: 80%;
+    border-left: 10px solid #31beff;
+    padding-left: 6px;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: normal;
+    margin: 0 0 9px 0;
+    display: inline-block;
+}
+
+article h2 {
+    margin: 10px 0 9px 0;
+}
+
+article p {
+    margin: 5px 0;
+    font-size: large;
+}
+
+.sidebar {
+    width: 20%;
+    float: right;
+    display: block;
+}
+
+.sidebar h2 {
+    text-align: center;
+    line-height: 24px;
+    margin: 2px 0;
+    font-weight: lighter;
+}
+
+
+.sitetitle {
+    font-size: 60px;
+    text-align: center;
+    line-height: 70px;
+}
+
+.sitetitle a {
+    color: black;
+    text-decoration: none;
+}
+
+.sitesumary {
+    text-align: center;
+    font-size: 17px;
+}
+
+.block {
+    width: auto; 
+    height: auto;
+    background-color: #ffffff;
+    border: 4px solid #b88d00;
+    border-radius: 20px;
+    text-align: left;
+    padding: 14px;
+    margin-bottom: 2px;
+}
