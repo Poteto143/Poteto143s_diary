@@ -2,7 +2,6 @@
 layout: default
 title: 記事の一覧
 pagename: 記事の一覧
-showfooter: False
 ---
 {% for post in site.posts %}
 <div class="post_link">
