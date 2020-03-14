@@ -1,25 +1,24 @@
 ---
-permalink: /404.html
-layout: default
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="{{ site.url }}/Poteto143s_diary/assets/css/style.css">
+        <link rel="shortcut icon" href="{{ site.url }}/Poteto143s_diary/assets/images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap" rel="stylesheet">    </head>
+    <body>
+        {% include header.html %}
+        <div class="main">
+            <article>
+                <div class="block">
+                    <h1>404</h1>
+                     <p>お探しのページは見つかりませんでした。</p>
+                     <p><a href="posts">こちら</a>から記事の一覧を見ることが出来ます。</p>
+                </div>
+            </article>
+            {% include sidebar.html %}
+        </div>
+    </body>
+</html>

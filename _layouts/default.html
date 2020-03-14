@@ -3,9 +3,15 @@
     <head>
         <meta charset="UTF-8">
         <title>{{ page.title }}</title>
-        <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css">
-        <link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap" rel="stylesheet">    </head>
+        <link rel="stylesheet" href="{{ site.url }}/Poteto143s_diary/assets/css/style.css">
+        <link rel="shortcut icon" href="{{ site.url }}/Poteto143s_diary/assets/images/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap" rel="stylesheet">
+        <meta name="description" content="Poteto143が日常で起きた出来事などを書き込むサイトです。">
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="og:url" content="{{site.url}}{{page.url}}" />
+        <meta property="og:title" content="{{page.title}}"/>
+        <meta property="og:image" content="{{ site.url }}/Poteto143s_diary/assets/images/preview.png" />
+    </head>
     <body>
         {% include header.html %}
         <div class="main">
@@ -21,7 +27,9 @@
                 </div>
             </article>
             {% include sidebar.html %}
-            {% include footer.html %}
+            {%- if page.showfooter == "yes" -%}
+                {% include footer.html %}
+            {%- endif -%}
         </div>
     </body>
 </html>
