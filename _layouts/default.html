@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300&display=swap" rel="stylesheet">    </head>
+    <body>
+        <header>
+        <div class="block">
+            <div class="sitetitle"><a href="/">Poteto143's diary</a></div>
+            <div class="sitesumary">Poteto143が日常で起きた出来事などを書き込むサイトです。</div>
+        </div>
+        </header>
+        <div class="main">
+            <article>
+                <div class="block">
+                    <div style="border-bottom: 2px solid #b88d00;">
+                        <h1>{{ page.pagename }}</h1><div style="float: right;">&#x1f552;更新日:{{ page.date }}</div><br>
+                    </div>
+                    {{ content }}
+                </div>
+            </article>
+            {% include sidebar.html %}
+            {% include footer.html %}
+        </div>
+    </body>
+</html>
