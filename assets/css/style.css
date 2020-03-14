@@ -1,5 +1,5 @@
 html {
-    background-image: url("background.png");
+    background-image: url("../images/background.png");
 }
 
 body {
@@ -13,6 +13,9 @@ header {
     display: inline-block;
 }
 
+a {
+    text-decoration: none;
+}
 .main {
     width: 1400px;
     display: inline-block;
@@ -38,8 +41,8 @@ article {
 article h1 {
     width: auto;
     padding-left: 6px;
-    line-height: 50px;
-    font-size: 45px;
+    line-height: 45px;
+    font-size: 40px;
     margin: 5px 10px 3px 0;
     font-weight: normal;
     display: inline-block;
@@ -47,7 +50,7 @@ article h1 {
 
 article h2, footer h2 {
     margin: 10px 0 9px 0;
-    display: inline-block;
+    display: block;
     width: auto;
     font-weight: normal;
     font-size: 30px;
@@ -84,7 +87,6 @@ article p {
 
 .sitetitle a {
     color: black;
-    text-decoration: none;
 }
 
 .sitesumary {
@@ -96,4 +98,21 @@ footer {
     float: left;
     display: block;
     width: 79.8%;
+}
+
+.post_link {
+    margin-top: 5px;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.post_title {
+    display: inline-block;
+}
+.post_title a{
+    font-size: 25px;
+}
+
+.post_link p {
+    margin: 0;
 }

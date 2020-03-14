@@ -1,6 +1,14 @@
 <footer>
     <div class="block">
-        <h2>他の記事を読む</h2>
-        <p><i>comming soon...</i></p>
+        {%- if page.next -%}
+            <h2>次の記事を読む</h2>    
+            <a href="{{page.next.url}}">{{page.next.title}}</a>
+        {%- endif -%}
+        {%- if page.previous-%}
+            <h2>前の記事を読む</h2>
+            <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+        {%- endif -%}
+        
+        
     </div>
 </footer>

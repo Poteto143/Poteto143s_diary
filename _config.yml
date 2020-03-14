@@ -7,3 +7,4 @@ plugins:
   - jekyll-feed
 lang: ja-jp
 markdown: kramdown
+encoding: "utf-8"
