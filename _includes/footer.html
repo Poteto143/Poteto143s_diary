@@ -1,10 +1,8 @@
 <footer>
     <div class="block">
         {%- if page.next -%}
-            <div style="float: left;">
-                <h2>次の記事を読む</h2>    
-                <a href="{{ site.url }}{{ page.next.url }}">{{page.next.title}}</a>
-            </div>
+            <h2>次の記事を読む</h2>    
+            <a href="{{ site.url }}{{ page.next.url }}">{{page.next.title}}</a>
         {%- endif -%}
         {%- if page.previous-%}
             <div style="text-align: right;">
