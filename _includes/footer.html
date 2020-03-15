@@ -1,16 +1,18 @@
 <footer>
-    <div class="block" style="height:80px;">
+    <div class="block" style="border: 3px solid #000;">
         {%- if page.next -%}
-        <div style="float: left;">
-            <h2>次の記事を読む</h2>    
-            <a href="{{ site.url }}{{ page.next.url }}">{{page.next.title}}</a>
-        </div>
+            <div style="float: left;">
+                <h2>次の記事を読む</h2>    
+                <a href="{{ site.url }}{{ page.next.url }}">{{page.next.title}}</a>
+            </div>
         {%- endif -%}
         {%- if page.previous-%}
-        <div style="float: right;">
-            <h2>前の記事を読む</h2>
-            <a href="{{ site.url }}{{ page.previous.url }}">{{page.previous.title}}</a>
-        </div>
+            <div style="text-align: right;">
+                <div style="display:inline-block; text-align: left;">
+                    <h2>前の記事を読む</h2>
+                    <a href="{{ site.url }}{{ page.previous.url }}">{{page.previous.title}}</a>
+                </div>
+            </div>
         {%- endif -%}
     </div>
 </footer>
