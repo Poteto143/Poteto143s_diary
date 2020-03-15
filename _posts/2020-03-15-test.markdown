@@ -1,9 +1,0 @@
----
-layout: default
-title:  "フッターのテスト用"
-pagename: "フッターのテスト用"
-showfooter: False
----
-うん…<br>
-何もないです。<br>
-フッターの表示をテストするだけ。気にしないで。

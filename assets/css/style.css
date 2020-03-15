@@ -32,7 +32,7 @@ a {
     margin-bottom: 2px;
 }
 
-article {
+article, footer {
     width: 79.8%;
     float: left;
     display: block;
@@ -92,12 +92,6 @@ article p {
 .sitesumary {
     text-align: center;
     font-size: 17px;
-}
-
-footer {
-    float: left;
-    display: block;
-    width: 79.8%;
 }
 
 .post_link {

@@ -3,13 +3,13 @@
         {%- if page.next -%}
         <div style="float: left;">
             <h2>次の記事を読む</h2>    
-            <a href="Poteto143s_diary/{{page.next.url}}">{{page.next.title}}</a>
+            <a href="{{page.next.url}}">{{page.next.title}}</a>
         </div>
         {%- endif -%}
         {%- if page.previous-%}
         <div style="float: right;">
             <h2>前の記事を読む</h2>
-            <a href="Poteto143s_diary/{{page.previous.url}}">{{page.previous.title}}</a>
+            <a href="{{page.previous.url}}">{{page.previous.title}}</a>
         </div>
         {%- endif -%}
     </div>
