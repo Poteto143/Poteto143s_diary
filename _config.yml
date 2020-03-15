@@ -2,7 +2,7 @@ title: "Poteto143's diary"
 description: >- # this means to ignore newlines until "baseurl:"
   Poteto143が日常で起きた出来事などを書き込むサイトです。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://poteto143.github.io/Poteto143s_diary/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://poteto143.github.io/Poteto143s_diary" # the base hostname & protocol for your site, e.g. http://example.com
 plugins:
   - jekyll-feed
 lang: ja-jp
