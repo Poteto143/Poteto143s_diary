@@ -17,9 +17,9 @@ Poteto143's diaryへようこそ!<br>
 名前: Poteto143<br>
 趣味: プログラミング・ゲーム<br>
 職業: 学生<br>
-Twitter: <a href="https://twitter.com/Poteto143">@Poteto143</a><br>
-Discord: Poteto143#1434<br>
 Scratch: <a href="https://scratch.mit.edu/users/Poteto143/">@Poteto143</a><br>
-
 Github: <a href="https://github.com/Poteto143">@Poteto143</a><br>
 </center>
+
+## Special Thanks
+<a href="credit">こちら</a>をご確認下さい。
