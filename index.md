@@ -2,7 +2,6 @@
 layout: default
 title: "Poteto143's diary"
 pagename: メインページ
-date: 2020-03-14
 ---
 Poteto143's diaryへようこそ!<br>
 周りの人々がどんどんウェブサイトを作っていく中、一人だけ遅れているような気がしたので僕もウェブサイトを作ってみました。<br>

@@ -15,18 +15,29 @@
         <meta property="og:url" content="{{site.url}}{{page.url}}" />
         <meta property="og:title" content="{{page.title}}"/>
         <meta property="og:image" content="{{ site.url }}/assets/images/preview.png" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161059827-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-161059827-1');
+        </script>
     </head>
     <body>    
         <div class="main">
             {% include header.html %}
             <article>
                 <div class="block">
+                    {%- if page.pagename -%}
                     <div style="border-bottom: 2px solid #b88d00;">
                         <h1>{{ page.pagename }}</h1>
                         {%- if page.date -%}
                             <div style="float: right;">&#x1f552;更新日:{{ page.date | date: "%Y/%m/%d"}}</div><br>
                         {%- endif -%}
                     </div>
+                    {%- endif -%}
                     {{ content }}
                 </div>
             </article>
