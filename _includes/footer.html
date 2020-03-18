@@ -1,16 +1,20 @@
 <footer>
-    <div class="block">
+    <div class="block" style="display: flex; justify-content: space-between;">
         {%- if page.next -%}
+        <div style="display: inline-block;">
             <h2>次の記事を読む</h2>    
             <a href="{{ site.url }}{{ page.next.url }}">{{page.next.title}}</a>
-        {%- endif -%}
+        </div>
+            {%- endif -%}
         {%- if page.previous-%}
-            <div style="text-align: right;">
-                <div style="display:inline-block; text-align: left;">
-                    <h2>前の記事を読む</h2>
-                    <a href="{{ site.url }}{{ page.previous.url }}">{{page.previous.title}}</a>
-                </div>
-            </div>
+        <div style="display: inline-block;">
+            <h2>記事一覧を見る</h2>
+            <a href="{{site.url}}\posts">記事の一覧</a>
+        </div>
+        <div style="display: inline-block;">
+            <h2>前の記事を読む</h2>
+            <a href="{{ site.url }}{{ page.previous.url }}">{{page.previous.title}}</a>
+        </div>
         {%- endif -%}
     </div>
 </footer>
