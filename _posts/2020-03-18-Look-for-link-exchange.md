@@ -13,8 +13,9 @@ showfooter: True
 ・ウェブサイト内の任意の見える場所に、本ウェブサイトへのリンクを掲載すること<br>
 できればサイドバーなどの、常に表示される部分に掲載してくださると嬉しいです。<br>
 以下はコピー用です:
+<pre>
 <code>
-<a href="https://poteto143.github.io/Poteto143s_diary/">Poteto143's diary</a>
+&lt;a href="https://poteto143.github.io/Poteto143s_diary/">Poteto143's diary&lt;/a>
 </code>
-
+</pre>
 沢山の相互リンクを待ってます!
