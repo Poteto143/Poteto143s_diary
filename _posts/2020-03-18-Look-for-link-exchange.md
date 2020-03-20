@@ -1,6 +1,5 @@
 ---
 layout: default
-title: 相互リンクウェブサイトを募集します
 pagename: 相互リンクウェブサイトを募集します
 showfooter: True
 ---

@@ -1,6 +1,5 @@
 ---
 layout: default
-title:  "フッターを追加しました"
 pagename: "フッターを追加しました"
 showfooter: True
 ---

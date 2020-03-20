@@ -1,6 +1,5 @@
 ---
 layout: default
-title:  "初めてウェブサイトを一から作った感想"
 pagename: "初めてウェブサイトを一から作った感想"
 showfooter: True
 ---

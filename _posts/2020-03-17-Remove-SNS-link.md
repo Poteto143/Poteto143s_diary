@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Twitterリンク削除のお知らせ
 pagename: Twitterリンク削除のお知らせ
 showfooter: True
 ---
