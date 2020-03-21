@@ -28,25 +28,27 @@
         </script>
     </head>
     <body>    
-        <div class="main">
+        <div class="container">
             {% include header.html %}
-            <article>
-                <div class="block">
-                    {%- if page.pagename -%}
-                    <div style="border-bottom: 2px solid #b88d00;">
-                        <h1>{{ page.pagename }}</h1>
-                        {%- if page.date -%}
-                            <div style="float: right;">&#x1f552;更新日:{{ page.date | date: "%Y/%m/%d"}}</div><br>
+            <div class="main">
+                <div class="block" style="float: left;">
+                    <article>
+                        {%- if page.pagename -%}
+                        <div style="border-bottom: 2px solid #b88d00;">
+                            <h1>{{ page.pagename }}</h1>
+                            {%- if page.date -%}
+                                <div style="float: right;">&#x1f552;更新日:{{ page.date | date: "%Y/%m/%d"}}</div><br>
+                            {%- endif -%}
+                        </div>
                         {%- endif -%}
-                    </div>
-                    {%- endif -%}
-                    {{ content }}
+                        {{ content }}
+                    </article>   
+                    {%- if page.showfooter -%}
+                    {% include footer.html %}
+                    {%- endif -%}        
                 </div>
-            </article>
+            </div>
             {% include sidebar.html %}
-            {%- if page.showfooter -%}
-                {% include footer.html %}
-            {%- endif -%}
         </div>
     </body>
 </html>

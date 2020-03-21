@@ -17,13 +17,17 @@ header {
 a {
     text-decoration: none;
 }
-.main {
+.container {
     width: 1400px;
     display: inline-block;
 }
 
+.main {
+    width: 76.8%;
+}
 .block {
     height: auto;
+    width: 100%;
     display: block;
     background-color: #ffffff;
     border: 4px solid #b88d00;
@@ -33,11 +37,6 @@ a {
     margin-bottom: 2px;
 }
 
-article, footer {
-    width: 79.8%;
-    float: left;
-    display: block;
-}
 
 article h1 {
     width: auto;
