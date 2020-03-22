@@ -17,6 +17,7 @@ header {
 a {
     text-decoration: none;
 }
+
 .container {
     width: 1400px;
     display: inline-block;
@@ -25,6 +26,7 @@ a {
 .main {
     width: 76.8%;
 }
+
 .block {
     height: auto;
     width: 100%;
@@ -36,7 +38,6 @@ a {
     padding: 10px 17px;
     margin-bottom: 2px;
 }
-
 
 .pagetitle h1 {
     width: auto;
@@ -51,6 +52,7 @@ a {
 article {
     padding: 7px 0;
 }
+
 article h2, footer h2 {
     margin: 10px 0 9px 0;
     display: block;
@@ -65,7 +67,7 @@ article p {
     width: 100%;
     margin: 0;
     font-size: large;
-    line-height: 40px;
+    line-height: 30px;
 }
 
 .sidebar {
@@ -106,6 +108,7 @@ article p {
 .post_title {
     display: inline-block;
 }
+
 .post_title a{
     font-size: 25px;
 }
