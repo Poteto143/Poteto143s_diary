@@ -24,7 +24,7 @@ a {
 }
 
 .main {
-    width: 76.8%;
+    width: 80%;
 }
 
 .block {
@@ -71,7 +71,7 @@ article p {
 }
 
 .sidebar {
-    width: 20%;
+    width: 16.8%;
     float: right;
     display: block;
 }
