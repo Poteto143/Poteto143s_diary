@@ -2,10 +2,10 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        {%- if page.title -%}
-            <title>{{page.title}}</title>
-        {%- elsif page.pagename -%}
+        {%- if page.pagename -%}
             <title>{{ page.pagename }}</title>
+        {%- elsif page.title -%}
+            <title>{{page.title}}</title>
         {%- else -%}
             <title>{{site.title}}</title>
         {%- endif -%}
