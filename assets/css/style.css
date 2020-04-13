@@ -28,6 +28,7 @@ a {
 }
 
 .block {
+    box-sizing: border-box;
     height: auto;
     width: 100%;
     display: block;
@@ -71,9 +72,11 @@ article p {
 }
 
 .sidebar {
-    width: 16.8%;
+    box-sizing: border-box;
+    width: 20%;
     float: right;
     display: block;
+    padding-left: 2px;
 }
 
 .sidebar h2 {
