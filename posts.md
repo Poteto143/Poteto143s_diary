@@ -1,6 +1,5 @@
 ---
 layout: default
-title: 記事の一覧
 pagename: 記事の一覧
 ---
 {% for post in site.posts %}

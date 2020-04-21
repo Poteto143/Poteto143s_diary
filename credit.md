@@ -5,8 +5,10 @@ pagename: クレジット
 ---
 <center>
 <p>
-このサイトを作る上で、<a href="https://t-taku.github.io/">T-takuさん</a>に様々な事を教えて頂きました。<br>
-ありがとうございます!!<br>
+このサイトを作る上で、<a href="https://t-taku.github.io/">T-takuさん</a>に様々な事を教えて頂きました。
+
+ありがとうございます!!
+
 また、僕にブログを作るきっかけを与えて下さったScratcherの皆さんにも感謝します。
 </p>
 </center>
