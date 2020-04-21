@@ -17,17 +17,16 @@ Poteto143's diaryへようこそ!
 ## 私のプロフィール
 <center>
 <img src="assets/images/Icon.png" width="400px" height="400px" style=" border-radius: 10px;">
-
+<br<>>
 名前: Poteto143
-
+<br>
 趣味: プログラミング・ゲーム
-
+<br>
 職業: 学生
-
+<br>
 Scratch: <a href="https://scratch.mit.edu/users/Poteto143/">@Poteto143</a>
-
+<br>
 Github: <a href="https://github.com/Poteto143">@Poteto143</a>
-
 </center>
 
 ## Special Thanks
