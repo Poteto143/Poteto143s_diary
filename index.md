@@ -17,7 +17,7 @@ Poteto143's diaryへようこそ!
 ## 私のプロフィール
 <center>
 <img src="assets/images/Icon.png" width="400px" height="400px" style=" border-radius: 10px;">
-<br<>>
+<br>
 名前: Poteto143
 <br>
 趣味: プログラミング・ゲーム
