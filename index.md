@@ -14,6 +14,8 @@ Poteto143's diaryへようこそ!
 
 記事一覧は<a href="posts">こちら</a>からどうぞ。
 
+このサイトではGoogleアナリティクスを使用しています。
+
 ## 私のプロフィール
 <center>
 <img src="assets/images/Icon.png" width="400px" height="400px" style=" border-radius: 10px;">
