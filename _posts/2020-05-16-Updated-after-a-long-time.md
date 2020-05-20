@@ -12,7 +12,7 @@ showfooter: True
 ## Youtubeチャンネル開設
 思い切ってYoutubeチャンネルを開設しました!
 
-URLはこちらです。 https://www.youtube.com/channel/UCo-vldNmR0eV9SLERPdx4Ew
+URLはこちらです。 [https://www.youtube.com/channel/UCo-vldNmR0eV9SLERPdx4Ew](https://www.youtube.com/channel/UCo-vldNmR0eV9SLERPdx4Ew)
 
 といっても、とりあえずチャンネルを作っただけなので投稿する動画はまだ編集中だったり。
 
@@ -27,7 +27,7 @@ Discordというチャットサービスがあるのですが、ふと思い立�
 
 今後も、どんどん役職を増やして、遊びごたえのあるBotにしていこうと思います!
 
-<span style="font-size:20px;">ここに招待リンクを貼ることはできないので自力で探して下さい･･･!</span>
+<span style="font-size:12px;">ここに招待リンクを貼ることはできないので自力で探して下さい･･･!</span>
 
 ## Atcoderを久しぶりにやり始める
 Atcoder(競技プログラミング)のコンテストに最後に参加したのが今年の1月。
@@ -50,4 +50,4 @@ Atcoder(競技プログラミング)のコンテストに最後に参加した�
 
 それでは。
 
-<span style="font-size:12px;">ああああああぁぁぁぁぁぁ課題終わらないいいいいぃぃぃ…</span>
+<span style="font-size:10px; color:glay;">ああああああぁぁぁぁぁぁ課題終わらないいいいいぃぃぃ…</span>
