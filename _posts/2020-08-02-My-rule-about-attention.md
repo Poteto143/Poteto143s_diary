@@ -1,3 +1,8 @@
+---
+layout: default
+pagename: 僕の考えた注意の指南
+showfooter: True
+---
 あまりにもネタが思いつかないもので、二ヶ月以上の空きができてしまいました。すいません!
 
 <br>
