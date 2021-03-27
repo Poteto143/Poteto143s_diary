@@ -15,7 +15,7 @@ Poteto143's diaryへようこそ!
 記事一覧は<a href="posts">こちら</a>からどうぞ。
 
 ## 私のプロフィール
-<center>
+<div style="text-align:center;">
 <img src="assets/images/Icon.png" width="400px" height="400px" style=" border-radius: 10px;">
 
 名前: Poteto143
@@ -41,7 +41,7 @@ TwitterとDiscordも使っていますがここでは情報を載せられない
 I am a Japanese high school student(first grade) in Chiba!
 
 My goal is to make enjoyable games and make everyone fun with it.
-</center>
+</div>
 
 ## プライバシーポリシー
 当サイトではアクセス解析のためにGoogleアナリティクスを使用しています。
