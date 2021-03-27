@@ -17,16 +17,30 @@ Poteto143's diaryへようこそ!
 ## 私のプロフィール
 <center>
 <img src="assets/images/Icon.png" width="400px" height="400px" style=" border-radius: 10px;">
-<br>
+
 名前: Poteto143
-<br>
+
 趣味: プログラミング・ゲーム
-<br>
+
 職業: 学生
-<br>
+
 Scratch: <a href="https://scratch.mit.edu/users/Poteto143/">@Poteto143</a>
-<br>
+
 Github: <a href="https://github.com/Poteto143">@Poteto143</a>
+  
+**自己紹介(日本語)**
+
+千葉県に住む高校1年生のScratcherです！
+
+皆さんが楽しく遊べるゲームを作ることを目標に活動しています。
+
+TwitterとDiscordも使っていますがここでは情報を載せられないので自分でお探し下さい。
+
+**Self Introduction(English)**
+
+I am a Japanese high school student(first grade) in Chiba!
+
+My goal is to make enjoyable games and make everyone fun with it.
 </center>
 
 ## プライバシーポリシー
