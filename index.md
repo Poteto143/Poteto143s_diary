@@ -28,7 +28,7 @@ Scratch: <a href="https://scratch.mit.edu/users/Poteto143/">@Poteto143</a>
 
 Github: <a href="https://github.com/Poteto143">@Poteto143</a>
   
-**自己紹介(日本語)**
+<b>自己紹介(日本語)</b>
 
 千葉県に住む高校1年生のScratcherです！
 
@@ -36,7 +36,7 @@ Github: <a href="https://github.com/Poteto143">@Poteto143</a>
 
 TwitterとDiscordも使っていますがここでは情報を載せられないので自分でお探し下さい。
 
-**Self Introduction(English)**
+<b>Self Introduction(English)</b>
 
 I am a Japanese high school student(first grade) in Chiba!
 
