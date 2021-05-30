@@ -30,7 +30,7 @@ Github: <a href="https://github.com/Poteto143">@Poteto143</a>
 <br>
 <b>自己紹介(日本語)</b>
 <br>
-千葉県に住む高校1年生のScratcherです！
+千葉県に住む高校2年生のScratcherです！
 <br>
 皆さんが楽しく遊べるゲームを作ることを目標に活動しています。
 <br>
@@ -39,7 +39,7 @@ TwitterとDiscordも使っていますがここでは情報を載せられない
 <br>
 <b>Self Introduction(English)</b>
 <br>
-I am a Japanese high school student(first grade) in Chiba!
+I am a Japanese high school student(second grade) in Chiba!
 <br>
 My goal is to make enjoyable games and make everyone fun with it.
 </div>
