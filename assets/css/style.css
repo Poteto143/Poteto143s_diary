@@ -82,14 +82,14 @@ article p {
 .sidebar h2 {
     text-align: center;
     line-height: 24px;
-    margin: 2px 0;
+    margin: 5px 0;
     font-weight: lighter;
 }
 
 .sitetitle {
     font-size: 60px;
     text-align: center;
-    line-height: 70px;
+    line-height: 75px;
     font-family: 'Source Sans Pro', 'sans-serif';
 }
 

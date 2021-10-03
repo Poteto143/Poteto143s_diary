@@ -8,3 +8,4 @@ plugins:
 lang: ja-jp
 markdown: kramdown
 encoding: "utf-8"
+livereload: true
