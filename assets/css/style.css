@@ -1,25 +1,29 @@
-html {
-    background-image: url("../images/background.png");
-}
-
 body {
     width: 100%;
     color: black;
     text-align: center;
     font-family: "Noto Sans JP", "sans-serif";
+    background-image: url("../images/background.png");
 }
 
 header {
-    width: 1400px;
+    width: 100%;
     display: inline-block;
 }
 
 a {
+    color: blue;
     text-decoration: none;
 }
 
+
+a.scLink {
+    color: #ebc334;
+}
+
+
 .container {
-    width: 1400px;
+    width: 1500px;
     display: inline-block;
 }
 
@@ -64,10 +68,10 @@ article h2, footer h2 {
     padding-left: 5px;
 }
 
-article p {
+p {
     width: 100%;
     margin: 0;
-    font-size: large;
+    font-size: 18px;
     line-height: 30px;
 }
 
@@ -81,9 +85,13 @@ article p {
 
 .sidebar h2 {
     text-align: center;
-    line-height: 24px;
-    margin: 5px 0;
+    line-height: 30px;
+    margin: 1px 0;
     font-weight: lighter;
+}
+.sidebar p{
+    line-height: 30px;
+    margin: 0;
 }
 
 .sitetitle {

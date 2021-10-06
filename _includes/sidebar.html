@@ -1,45 +1,55 @@
 <div class="sidebar">
     <div class="block">
+        <h2><a href="{{site.url}}/posts">記事一覧はこちら</a></h2>
+    </div>
+    <div class="block">
         <h2>My profile</h2>
         <p style="text-align: center; margin: 10px 0;"><img src="{{site.url}}\assets\images\Icon.png" width="200px" height="200px"></p>
-        名前: Poteto143<br>
-        趣味: プログラミング・ゲーム<br>
-        職業: 学生<br>
-        Scratch: <a href="https://scratch.mit.edu/users/Poteto143/">@Poteto143</a>
+        <p>名前: Poteto143</p>
+        <p>趣味: プログラミング・ゲーム</p>
+        <p>職業: 学生</p>
+        <p>Scratch: <a href="https://scratch.mit.edu/users/Poteto143/">@Poteto143</a></p>
     </div>
     <div class="block">
         <h2>相互リンク</h2>
-        <a href="https://papinosuke.github.io/diary.html">papipupepoの日記</a><br>
-        　By <a href="https://scratch.mit.edu/users/papipupepo/">@papipupepo</a><br>
-        <a href="http://robo-gamecenter.seesaa.net/">ロボのゲームセンター</a><br>
-        　By <a href="https://scratch.mit.edu/users/robo_24/">@robo_24</a><br>
-        <a href="https://tan-10.github.io/">tan-10の研究所</a><br>
-        　By <a href="https://scratch.mit.edu/users/tan-10/">@tan-10</a><br>
-        <a href="https://developermodoki.github.io/pages/">developermodoki's Pages</a><br>
-        　By <a href="https://scratch.mit.edu/users/Windows1000000_2">@Windows1000000_2</a><br>
-        <a href="https://sypuhome.webnode.jp/">sypuHOME</a><br>
-        　By <a href="https://scratch.mit.edu/users/sypu/">@sypu</a><br>
-        <a href="https://ryouuuuoyr-scratcher.webnode.jp/">ryouuuuoyr-scratcherのScratchブログ</a><br>
-        　By <a href="https://scratch.mit.edu/users/ryouuuuoyr">@ryouuuuoyr</a><br>
-        <a href="https://taitaitatata.github.io/taitai-page">taitaitatataのホームページ</a><br>
-        　By <a href="https://scratch.mit.edu/users/taitaitatata">@taitaitatata</a><br>
-        <a href="https://neko001robov.github.io/">nyankotrainのお部屋</a><br>
-        　By <a href="https://scratch.mit.edu/users/nyankotrain/">@nyankotrain</a><br>
-        <a href="https://yuikunyeah.github.io/homepage/profile.html">yuikunyeahのプロフ</a><br>
-        　By <a href="https://scratch.mit.edu/users/yuikunyeah">@yuikunyeah</a><br>
-        <a href="https://s-1014.glitch.me/">S-1014のサイト</a><br>
-        　By <a href="https://scratch.mit.edu/users/S-1014">@S-1014</a><br>
-        <a href="https://enthusiasticprogram.github.io/index.html">Enthusiastic</a><br>
-        　By <a href="https://scratch.mit.edu/users/-p-e-n-">@-p-e-n-</a><br>
-        <a href="https://bellomaker.glitch.me/">BellMe</a><br>
-        　By <a href="https://scratch.mit.edu/users/Bellomaker">@Bellomaker</a><br>
-        <a href="https://kokero-web.github.io/">KOKERO WEB</a><br>
-        　By <a href="https://scratch.mit.edu/users/kokeroyama">@kokeroyama</a><br>
-        <a href="https://kuwagatasan.github.io/nebanebakun-mainpage/">nebanebakunの公式サイト</a><br>
-        　By <a href="https://scratch.mit.edu/users/nebanebakun">@nebanebakun</a><br>
-        <a href="https://613482be66713.site123.me/">K-site</a><br>
-        　By <a href="https://scratch.mit.edu/users/ketiketi87">@ketiketi87</a><br>
-        <span style="font-size: 12px;">(相互リンクを希望する方は<a href="{{site.url}}\2020\03\18\Look-for-link-exchange.html">こちら</a>へ)</span>
+        {% assign links = site.data.links %}
+        {% for data in links %}
+                <p><a href="{{ data['SiteUrl'] }}">{{ data['SiteName'] }}</a></p>
+                <p>　By <a href="https://scratch.mit.edu/users/{{ data['UserName'] }}/" class="scLink">@{{ data['UserName'] }}</a></p>
+        {% endfor %}
+        <!--
+        <p><a href="https://papinosuke.github.io/diary.html">papipupepoの日記</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/papipupepo/" class="scLink">@papipupepo</a></p>
+        <p><a href="http://robo-gamecenter.seesaa.net/">ロボのゲームセンター</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/robo_24/" class="scLink">@robo_24</a></p>
+        <p><a href="https://tan-10.github.io/">tan-10の研究所</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/tan-10/" class="scLink">@tan-10</a></p>
+        <p><a href="https://developermodoki.github.io/pages/">developermodoki's Pages</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/Windows1000000_2" class="scLink">@Windows1000000_2</a></p>
+        <p><a href="https://sypuhome.webnode.jp/">sypuHOME</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/sypu/">@sypu</a></p>
+        <p><a href="https://ryouuuuoyr-scratcher.webnode.jp/">ryouuuuoyr-scratcherのScratchブログ</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/ryouuuuoyr">@ryouuuuoyr</a></p>
+        <p><a href="https://taitaitatata.github.io/taitai-page">taitaitatataのホームページ</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/taitaitatata">@taitaitatata</a></p>
+        <p><a href="https://neko001robov.github.io/">nyankotrainのお部屋</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/nyankotrain/">@nyankotrain</a></p>
+        <p><a href="https://yuikunyeah.github.io/homepage/profile.html">yuikunyeahのプロフ</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/yuikunyeah">@yuikunyeah</a></p>
+        <p><a href="https://s-1014.glitch.me/">S-1014のサイト</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/S-1014">@S-1014</a></p>
+        <p><a href="https://enthusiasticprogram.github.io/index.html">Enthusiastic</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/-p-e-n-">@-p-e-n-</a></p>
+        <p><a href="https://bellomaker.glitch.me/">BellMe</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/Bellomaker">@Bellomaker</a></p>
+        <p><a href="https://kokero-web.github.io/">KOKERO WEB</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/kokeroyama">@kokeroyama</a></p>
+        <p><a href="https://kuwagatasan.github.io/nebanebakun-mainpage/">nebanebakunの公式サイト</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/nebanebakun">@nebanebakun</a></p>
+        <p><a href="https://613482be66713.site123.me/">K-site</a></p>
+        <p>　By <a href="https://scratch.mit.edu/users/ketiketi87">@ketiketi87</a></p>
+        <p><span style="font-size: 14px;">(相互リンクを希望する方は<a href="{{site.url}}\2020\03\18\Look-for-link-exchange.html">こちら</a>へ)</span></p>
+        -->
     </div>
     <div class="block">
         <h2>記事にコメントする</h2>
